@@ -31,4 +31,78 @@ while n != 1:
 
 ## Problemas_varios_2_pagina_N°3.
 
-### (5) Diseñar una funci ́on que permita calcular el  ́epsilon de la m ́aquina.
+### (5) Diseñar una función que permita calcular el épsilon de la máquina.
+# código:
+```python
+def calcular_epsilon():
+    epsilon = 1.0
+
+    while (1.0 + epsilon) != 1.0:
+        epsilon = epsilon / 2.0
+    epsilon = epsilon * 2.0
+```
+# Imagen por pantalla 
+[![Captura-de-pantalla-43.png](https://i.postimg.cc/W10C00Lw/Captura-de-pantalla-43.png)](https://postimg.cc/xXT62JdX)
+
+
+## Problemas_varios_1_paginan_N°5.
+
+### (1) Imprimir un listado de los números del 1 al 100 cada uno con su respectivo cuadrado.
+# código:
+```python
+for i in range(1, 101):
+ print(i, i**2)
+```
+# Imagen por pantalla
+[![Captura-de-pantalla-44.png](https://i.postimg.cc/YSDSB5nB/Captura-de-pantalla-44.png)](https://postimg.cc/p98vD6Ms)
+
+
+
+### (2) Imprimir un listado con los números imparaes desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
+# código:
+```python
+print("Números impares del 1 al 999:")
+for i in range(1, 1000, 2):
+    print(i)
+
+print("\nNúmeros pares del 2 al 1000:")
+for i in range(2, 1001, 2):
+```
+
+# Imagenes por pantalla 1 hasta 999
+[![Captura-de-pantalla-45.png](https://i.postimg.cc/SRSkPq8t/Captura-de-pantalla-45.png)](https://postimg.cc/XGzRZRsw)
+
+# Imagen por pantalla 2 hasta 1000
+[![Captura-de-pantalla-46.png](https://i.postimg.cc/nLqxcMGP/Captura-de-pantalla-46.png)](https://postimg.cc/QBNwf8PQ)
+
+
+### (3) Imprimir los n ́umeros pares en forma descendente hasta 2 que son menores o iguales a un n ́umero natural n ≥ 2 dado.
+# código:
+```python
+n = int(input("Ingresa un número natural (n ≥ 2): "))
+
+print(f"Números pares desde {n} hasta 2 en forma descendente:")
+
+for i in range(n, 1, -1):
+    if i % 2 == 0:
+```
+
+# Imagen por pantalla 
+[![Captura-de-pantalla-47.png](https://i.postimg.cc/GpKMQCL8/Captura-de-pantalla-47.png)](https://postimg.cc/GBBJL6sd)
+
+### (4) Imprimir números de 1 hasta un número natural  n dado, cada uno con su respectivo factorial.
+# código: 
+```python
+n = int(input("Ingresa un número natural: "))
+
+factorial = 1
+for i in range(1, n + 1):
+    factorial *= i
+    print(i, factorial)
+```
+# Imagen por pantalla
+[![Captura-de-pantalla-48.png](https://i.postimg.cc/HxGQXv5n/Captura-de-pantalla-48.png)](https://postimg.cc/gwDXPDgb)
+
+
+
+
