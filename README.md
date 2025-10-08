@@ -1,1 +1,3 @@
-# Carlos_David_Pinto_Guzm-n__Taller_de_afianzamiento.
+#Taller_de_afianzamiento.
+#Problemas_varios_1_pagina_(2)
+
