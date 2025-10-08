@@ -1,4 +1,4 @@
-## Problemas_varios_1_pagina_N°2
+## Problemas_varios_1_pagina_N°2.
 
 ### (1) Desarrolla un programa que imprima el cuadrado de un número que el usuario ingresa mientras que el número ingrasado no sea negativo.
 # código:
@@ -27,3 +27,8 @@ while n != 1:
 ```
 # Imagen por pantalla 
 [![Captura-de-pantalla-41.png](https://i.postimg.cc/TPXQxss3/Captura-de-pantalla-41.png)](https://postimg.cc/PC21zShg)
+
+
+## Problemas_varios_2_pagina_N°3.
+
+### (5) Diseñar una funci ́on que permita calcular el  ́epsilon de la m ́aquina.
