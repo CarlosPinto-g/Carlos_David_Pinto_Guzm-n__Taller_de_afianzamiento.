@@ -10,5 +10,5 @@ while numero >= 0:
     print(f"El cuadrado de {numero} es {cuadrado}")
     numero = int(input("Ingresa otro número (negativo para salir): "))
 ```
-
-
+# Imagen por pantalla
+[![Captura-de-pantalla-40.png](https://i.postimg.cc/PxW4NQBW/Captura-de-pantalla-40.png)](https://postimg.cc/jwjNFPq2)
